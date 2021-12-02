@@ -38,7 +38,7 @@ function findISS() {
   .then(data => {
     lat = data.latitude.toFixed(2);
     long = data.longitude.toFixed(2);
-    const timestamp = new Date(data.timestamp * 1000).toUTCString();
+    const timestamp = new Date(data.timestamp * 2000).toUTCString();
     const speed = data.velocity.toFixed(2);
     const altitude = data.altitude.toFixed(2);
     const visibility = data.visibility;
