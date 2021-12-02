@@ -8,7 +8,7 @@ let visibilityText = document.querySelector('.visibility');
 
 let lat = 4.2105;
 let long = 101.9758;
-let zoomLevel = 10;
+let zoomLevel = 8;
 
 const icon = L.icon({
   iconUrl: './img/iss.png',
