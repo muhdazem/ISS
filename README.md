@@ -1,4 +1,4 @@
 # ISSTracker
 
-*link belows*
+*link*
 https://iss-seven.vercel.app/
