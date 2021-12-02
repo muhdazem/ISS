@@ -6,7 +6,6 @@ let speedText = document.querySelector('.speed');
 let altitudeText = document.querySelector('.altitude');
 let visibilityText = document.querySelector('.visibility');
 
-/* default latitude and longitude. Here lat and long is for "London" */
 let lat = 4.2105;
 let long = 101.9758;
 let zoomLevel = 10;
