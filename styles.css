@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* body */
+
 body {
   width: 100vw;
   height: 100vh;
@@ -18,15 +18,14 @@ body {
   text-align: center;
 }
 
-/* h1 */
+
 h1 {
   margin-bottom: 30px;
   font-size: 3rem;
   color: #fff;
 }
 
-/* #map */
-/* this is mandatory */
+
 #map-div {
   width: 800px;
   height: 350px;
@@ -35,7 +34,7 @@ h1 {
   border-top-left-radius: 3px;
 }
 
-/* #details */
+
 #details {
   background-color: #2B32B2;
   padding: 10px;
@@ -48,14 +47,13 @@ h1 {
   border-bottom-left-radius: 3px;
 }
 
-/* all div inside #details */
 #details div {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
-/* all span */
+
 span {
   font-size: 1rem;
   margin-top: 10px;
